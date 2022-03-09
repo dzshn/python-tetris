@@ -81,7 +81,7 @@ pyparsing = ">=2.0.2,<3.0.5 || >3.0.5"
 
 [[package]]
 name = "pdoc"
-version = "10.0.2"
+version = "10.0.3"
 description = "API Documentation for Python Projects"
 category = "dev"
 optional = false
@@ -214,7 +214,7 @@ testing = ["coverage (>=4)", "coverage-enable-subprocess (>=1)", "flaky (>=3)", 
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.9,<3.11"
-content-hash = "eb23a8e40684a4172060aa9154212fbee9c1e111512710feddc792f0c39ce6ff"
+content-hash = "0063fbd141b5b16f55579431ebbaf8fdd54ed8611ef546c40d3dd49ada31ede9"
 
 [metadata.files]
 "backports.entry-points-selectable" = [
@@ -305,7 +305,7 @@ packaging = [
     {file = "packaging-21.3.tar.gz", hash = "sha256:dd47c42927d89ab911e606518907cc2d3a1f38bbd026385970643f9c5b8ecfeb"},
 ]
 pdoc = [
-    {file = "pdoc-10.0.2-py3-none-any.whl", hash = "sha256:c0d5408fb5dfe5a1e5ab080d2fba1fdee2281e66480302bd365d9bd0a7b93cf2"},
+    {file = "pdoc-10.0.3-py3-none-any.whl", hash = "sha256:fe1491b289fb3851989ed955c6081d273731bc6383f49bf33ffce5421f2a9841"},
 ]
 platformdirs = [
     {file = "platformdirs-2.4.0-py3-none-any.whl", hash = "sha256:8868bbe3c3c80d42f20156f22e7131d2fb321f5bc86a2a345375c6481a67021d"},
