@@ -1,4 +1,4 @@
-name: Test library
+name: Test library and check docs
 
 on: [push, pull_request]
 
@@ -24,3 +24,10 @@ jobs:
 
             - name: Test with tox
               run: tox
+
+            - name: Generate apidoc
+              run: tox -e docs
+
+            - name: Check if repo apidoc is up to date
+              run: |
+                git diff-index --quiet HEAD --

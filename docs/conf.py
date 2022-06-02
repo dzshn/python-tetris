@@ -1,4 +1,9 @@
+import sys
+from os import path
+
 import tetris
+
+sys.path.insert(0, path.abspath("../tetris"))
 
 project = "python-tetris"
 author = 'Sofia "dzshn" N. L.'
