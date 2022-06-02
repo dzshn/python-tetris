@@ -15,5 +15,4 @@ Module contents
 
 .. automodule:: tetris.impl
    :members:
-   :undoc-members:
    :show-inheritance:
