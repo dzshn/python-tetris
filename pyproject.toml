@@ -22,13 +22,13 @@ classifiers = [
 [tool.poetry.dependencies]
 python = "^3.9"
 numpy = "^1.21.4"
-Sphinx = { version = "^4.4.0", optional = true }
+Sphinx = { version = ">=4.4,<6.0", optional = true }
 furo = { version = "^2022.3.4", optional = true }
 numpydoc = { version = "^1.2", optional = true }
 
 [tool.poetry.dev-dependencies]
 tox = "^3.25.0"
-Sphinx = "^4.4.0"
+Sphinx = ">=4.4,<6.0"
 furo = "^2022.3.4"
 numpydoc = "^1.2"
 # Their github is still updated but the last release was in May 17 2021
